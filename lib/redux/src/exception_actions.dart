@@ -1,5 +1,5 @@
 class ExceptionThrownAction {
-  Exception exception;
+  dynamic exception;
   Type exceptionType;
   StackTrace stackTrace;
   int exceptionHistorySize;

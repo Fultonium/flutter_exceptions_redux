@@ -3,7 +3,7 @@ import 'package:redux/redux.dart';
 import 'exception_actions.dart';
 
 class ExceptionRedux<T> {
-  Function(Exception) exceptionHandler;
+  Function(dynamic, dynamic) exceptionHandler;
   int exceptionHistorySize;
 
   ExceptionRedux({
@@ -26,7 +26,7 @@ class ExceptionRedux<T> {
             stackTrace: s,
             exceptionHistorySize: this.exceptionHistorySize,
           ));
-          exceptionHandler?.call(e);
+          exceptionHandler?.call(e, s);
         }
       }
     ];
