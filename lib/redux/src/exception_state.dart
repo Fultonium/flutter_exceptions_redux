@@ -31,6 +31,7 @@ class ExceptionState {
     );
   }
 
-  factory ExceptionState.fromJson(Map<String, dynamic> json) => _$ExceptionStateFromJson(json);
+  factory ExceptionState.fromJson(Map<String, dynamic> json) =>
+      _$ExceptionStateFromJson(json);
   Map<String, dynamic> toJson() => _$ExceptionStateToJson(this);
 }

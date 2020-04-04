@@ -9,6 +9,7 @@ class ExceptionRedux<T> {
   ExceptionRedux({
     /// Callback for thrown exceptions
     this.exceptionHandler,
+
     /// Maximum number of exceptions stored in the ExceptionState
     this.exceptionHistorySize = 5,
   });
