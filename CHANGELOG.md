@@ -3,6 +3,9 @@
 All notable changes to the "flutter_exceptions_redux" package will be documented in this file.
 
 ## Unreleased
+## [0.1.0] - 2021-06-12
+Update to latest packages (breaking change).
+
 ## [0.0.3] - 2020-04-04
 Add stacktrace to exception callback, allow for non-Exception-children to be caught
 
